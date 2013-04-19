@@ -11,3 +11,10 @@ Meteor is an awesome web application framework built on NodeJS. You should reall
 
 [Bootstrap](http://twitter.github.io/bootstrap)  
 The best front end framework out there
+
+About Me
+========
+My name is [Andy Brudtkuhl](http://youmetandy.com) and I'm a web developer that loves HTMl / CSS / Javascript and MVC. I dabble in ASP.Net MVC/C#, WordPress, NodeJS, Meteor, and other cool stuff.  
+
+[Follow me on Twitter](http://twitter.com/abrudtkuhl)  
+[Follow me on Google+](https://plus.google.com/114607439610411438568/)
