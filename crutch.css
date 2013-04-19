@@ -4,4 +4,6 @@ body { background-image: url('img/bg.jpg'); background-size: cover; }
   .wrap ul { list-style: none; }
   .wrap h1 { margin-top: 0; }
 
+.addthis_toolbox { margin-top: 100px; margin-left: -50px;}
+
 .footer { padding: 5px; font-size: 11px; width: 470px; margin: 0; text-align: center; }

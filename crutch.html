@@ -2,10 +2,12 @@
   <title>Cover My Crutches</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="text/javascript" src="https://www.dwolla.com/scripts/button.js"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=abrudtkuhl"></script>
 </head>
 
 <body>
   <div class="container">
+    {{> sharebar}}
     <div class="row">
       <div class="wrap">
         {{> splash}}
@@ -67,4 +69,16 @@
       data-label="Donate"></a>
   </div><br />
   <small>Can't do Dwolla but want to donate? <a href="mailto:abrudtkuhl@gmail.com">Email Me</small>
+</template>
+
+<template name="sharebar">
+  <div class="sharebar">
+    <div class="addthis_toolbox addthis_floating_style addthis_32x32_style">
+      <a class="addthis_button_facebook"></a>
+      <a class="addthis_button_twitter"></a>
+      <a class="addthis_button_reddit"></a>
+      <a class="addthis_button_pinterest_share"></a>
+      <a class="addthis_button_google_plusone_share"></a>
+    </div>
+  </div>
 </template>
