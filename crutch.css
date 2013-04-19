@@ -1,6 +1,7 @@
 /* CSS declarations go here */
 body { background-image: url('img/bg.jpg'); background-size: cover; }
-.wrap { background-color: #f1f1f1; border: 1px solid #ccc; opacity: .9; width: 400px; padding: 40px; float: right; margin: 20px 0 10px 0;}
+.wrap { background-color: #f1f1f1; border: 1px solid #ccc; opacity: .9; width: 400px; padding: 30px; float: right; margin: 20px 0 10px 0; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;}
   .wrap ul { list-style: none; }
+  .wrap h1 { margin-top: 0; }
 
 .footer { padding: 5px; font-size: 11px; width: 470px; margin: 0; text-align: center; }

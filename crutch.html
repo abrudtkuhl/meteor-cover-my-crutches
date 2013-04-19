@@ -12,8 +12,8 @@
       </div>
     </div>
     <div class="row">
-      <div class="wrap footer">
-        built on Meteor by Andy Brudtkuhl
+      <div class="footer pull-right">
+        built with <a href="http://meteor.com" target="_blank">Meteor</a> by <a href="http://twitter.com/abrudtkuhl" target="_blank">Andy Brudtkuhl</a>
       </div>
     </div>
   </div>
@@ -22,17 +22,37 @@
 <template name="splash">
 
   <h1>{{title}}</h1>
-  <small>For the why, check out my <a href="#">blog post</a></small>
-  <h2>What Is This</h2>
-  <p>The concept is simple. For the next few months I'm going to be on crutches. It sucks. However I'm selling advertising (via stickers) to companies and startups.</p>
+  <p><small>For the why, check out my <a href="#">blog post</a></small></p>
+  <p>The concept is simple. For the next few months I'm going to be living on crutches. It sucks. So, I'm selling sticker space on each crutch to companies and startups...</p>
 
-  <div class="alert alert-info"><strong>All proceeds will be donated to<a href="http://crutchesforkids.org" target="_blank">Crutches For Kids</a></strong>.</div>
+  <div class="alert alert-info"><strong>All proceeds will be donated to <a href="http://crutchesforkids.org" target="_blank">Crutches For Kids</a></strong>.</div>
 
-  <h2>How To Donate</h2>
-  <p>There are three donation levels. All donations are made via Dwolla</p>
-  <ul>
-    <li>$1 - Be a little awesome and help a bit<br />
-    </li>
+  <h3>Donate Now Via Dwolla</h3>
+  <table class="table table-condensed table-bordered">
+    <tr class="warning">
+      <td><strong>$1</strong></td>
+      <td>Be awesome and get a virutal high five</td>
+    </tr>
+    <tr class="info">
+      <td><strong>$25</strong></td>
+      <td>Be pretty awesome and get listed and linked on this page</td>
+    </tr>
+    <tr class="success">
+      <td valign="top"><strong>$100</strong></td>
+      <td>
+        Be totally awesome and get your sticker on my crutches
+        <ol>
+          <li>Get your sticker on my crutches</li>
+          <li>I'll blast out a picture of your sticker on my crutch to all my awesome followers across the interwebs</li>
+          <li>The image on this site will be updated as new stickers are added</li>
+        </ol>
+      </td>
+    </tr>
+  </table>
+  
+
+  <!--<ul>
+    <li>$1 - Be a little awesome and get a virtual high five</li>
     <li>$25 - Get listed on this page as being pretty awesome</li>
     <li><strong>$100 - Be totally awesome</strong><br />
       <ol>
@@ -41,7 +61,7 @@
         <li>I'll write a short blurb about your company on my blog for link juice.</li>
       </ol>
     </li>
-  </ul>
+  </ul>-->
 </template>
 
 <template name="dwolla">
@@ -50,7 +70,7 @@
       data-key="SQYQMzyie5jRbiTweKQMjev3u4lepLEO03PHsBzM2cMRldTJz0"
       data-guest-checkout="true"
       data-type="options"
-      data-options="Awesome:::1|||Super Awesome:::34"
+      data-options="Awesome:::1|||Pretty Awesome:::25|||Totally Awesome:::100"
       data-tax="0"
       data-shipping="0"
       data-amount="100"
@@ -58,5 +78,6 @@
       data-redirect="http://covermycrutches.com/thanks"
       data-name="Donate"
       data-label="Donate"></a>
-  </div>
+  </div><br />
+  <small>Can't do Dwolla but want to donate? <a href="mailto:abrudtkuhl@gmail.com">Email Me</small>
 </template>
