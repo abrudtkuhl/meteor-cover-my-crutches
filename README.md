@@ -6,7 +6,8 @@ Visit (Cover My Crutches)[http://www.covermycrutches.com] to send a sticker.
 
 Tools
 =====
-(Meteor)[http://meteor.com]  
+[Meteor](http://meteor.com)  
 Meteor is an awesome web application framework built on Node. You should really check it out.  
-(Bootstrap)[http://twitter.github.io/bootstrap] 
+
+[Bootstrap](http://twitter.github.io/bootstrap)  
 The best front end framework out there
