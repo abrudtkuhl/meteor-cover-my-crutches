@@ -1,16 +1,43 @@
 <head>
-  <title>crutch</title>
+  <title>Cover My Crutches</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="wrap">
-      {{> hello}}
+    <div class="row">
+      <div class="wrap">
+        {{> splash}}
+      </div>
+    </div>
+    <div class="row">
+      <div class="wrap footer">
+        built on Meteor by Andy Brudtkuhl
+      </div>
     </div>
   </div>
 </body>
 
-<template name="hello">
+<template name="splash">
+
   <h1>Cover My Crutches</h1>
-  <small>For the why, check out my <a href="#">blog post</a>
+  <small>For the why, check out my <a href="#">blog post</a></small>
+  <h2>What Is This</h2>
+  <p>The concept is simple. For the next few months I'm going to be on crutches. It sucks. However I'm selling advertising (via stickers) to companies and startups.</p>
+
+  <div class="alert alert-info"><strong>All proceeds will be donated to<a href="http://crutchesforkids.org" target="_blank">Crutches For Kids</a></strong>.</div>
+
+  <h2>How To Donate</h2>
+  <p>There are three donation levels. All donations are made via Dwolla</p>
+  <ul>
+    <li>$1 - Be a little awesome and help a bit<br />
+    </li>
+    <li>$25 - Get listed on this page as being pretty awesome</li>
+    <li><strong>$100 - Be totally awesome</strong><br />
+      <ol>
+        <li>Get your sticker on my crutches</li>
+        <li>I'll blast out a picture of your sticker on my crutch to all my awesome followers across the interwebs.</li>
+        <li>I'll write a short blurb about your company on my blog for link juice.</li>
+      </ol>
+    </li>
+  </ul>
 </template>

@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
+  Template.splash.greeting = function () {
     return "Welcome to crutch.";
   };
 }
