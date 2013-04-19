@@ -1,6 +1,6 @@
 if (Meteor.isClient) {
-  Template.splash.greeting = function () {
-    return "Welcome to crutch.";
+  Template.splash.title = function () {
+    return "Cover My Crutches";
   };
 }
 

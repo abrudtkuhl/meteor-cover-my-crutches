@@ -1,5 +1,6 @@
 <head>
   <title>Cover My Crutches</title>
+  <script type="text/javascript" src="https://www.dwolla.com/scripts/button.js"></script>
 </head>
 
 <body>
@@ -7,6 +8,7 @@
     <div class="row">
       <div class="wrap">
         {{> splash}}
+        {{> dwolla}}
       </div>
     </div>
     <div class="row">
@@ -19,7 +21,7 @@
 
 <template name="splash">
 
-  <h1>Cover My Crutches</h1>
+  <h1>{{title}}</h1>
   <small>For the why, check out my <a href="#">blog post</a></small>
   <h2>What Is This</h2>
   <p>The concept is simple. For the next few months I'm going to be on crutches. It sucks. However I'm selling advertising (via stickers) to companies and startups.</p>
@@ -40,4 +42,21 @@
       </ol>
     </li>
   </ul>
+</template>
+
+<template name="dwolla">
+  <div class="dwolla-button">
+    <a class="dwolla_button" href="http://covermycrutches.com"
+      data-key="SQYQMzyie5jRbiTweKQMjev3u4lepLEO03PHsBzM2cMRldTJz0"
+      data-guest-checkout="true"
+      data-type="options"
+      data-options="Awesome:::1|||Super Awesome:::34"
+      data-tax="0"
+      data-shipping="0"
+      data-amount="100"
+      data-description="Donate"
+      data-redirect="http://covermycrutches.com/thanks"
+      data-name="Donate"
+      data-label="Donate"></a>
+  </div>
 </template>
